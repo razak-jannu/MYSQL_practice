@@ -52,3 +52,22 @@ modify COLUMN employee_name VARCHAR(100);
 alter table staff
 RENAME column department to dept_name;
 desc staff;
+
+-- ADDITIONAL DDL OPERATIONS
+
+-- 16. Create a new database.
+CREATE DATABASE company;
+-- 17. Display all databases.
+SHOW DATABASES;
+-- 18. Select a database.
+USE company;
+-- 19. Drop a database.
+DROP DATABASE company;
+-- 20. Drop the complete table.
+DROP TABLE staff;
+-- 21. Remove all records from a table but keep the table structure.
+TRUNCATE TABLE staff;
+-- 22. Display the structure of a table.
+DESC staff;
+-- 23. Display all tables in the current database.
+SHOW TABLES;
